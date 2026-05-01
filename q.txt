@@ -1,0 +1,71 @@
+# 🧪 Practical Assessment: REST API using Express.js
+
+## 🎯 Objective
+
+Build a REST API for managing **students**.
+
+---
+
+## 📌 Requirements
+
+### Data Model
+
+Each student should have:
+
+- id
+- name
+- course
+- age
+
+---
+
+### API Routes
+
+Implement the following:
+
+- `GET /students` → return all students
+- `GET /students/:id` → return single student
+- `POST /students` → create a student
+- `PUT /students/:id` → update student
+- `DELETE /students/:id` → delete student
+
+---
+
+### Constraints
+
+- Use **Express**
+- Use in-memory storage (array)
+- Handle invalid IDs properly
+- Use correct HTTP status codes
+
+---
+
+## ⚙️ Expectations
+
+- Clean folder structure
+- Proper use of middleware
+- Working JSON request/response
+- No crashes on bad input
+
+---
+
+## ⏱️ Time
+
+- 60 minutes
+
+---
+
+## 📊 Evaluation
+
+- Functionality
+- Code quality
+- Error handling
+- Understanding of REST
+
+---
+
+## ⚠️ Notes
+
+- No external libraries (except Express)
+- No database
+- No copying
